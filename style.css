@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', 'Cascadia Code';
+}
+.title{
+    text-align: center;
+    padding: 10px;
+}
+.container{
+    width: fit-content;
+    border:1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-color: rgb(182, 182, 182);
+}
+.subtitle{
+    padding: 10px;
+    text-align: center;
+}
+.heightInput, .weightInput{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 5px;
+    align-items: center;
+}
+input{
+    padding: 8px;
+    border-radius: 10px;
+    border:none;
+}
+p{
+    margin-right: 5px;
+}
+.calculateButton{
+    padding: 5px 10px;
+    text-align: center;
+}
+button{
+    padding: 4px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(100, 100,100);
+    color: #fff;
+}
+fieldset{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
